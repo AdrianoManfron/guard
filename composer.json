@@ -1,0 +1,21 @@
+{
+    "name": "adria/guard",
+    "authors": [
+        {
+            "name": "Adriano Manfron",
+            "email": "adriano@manfron.com.br"
+        }
+    ],
+    "require-dev": {
+        "laravel/pint": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        },
+        "files": [
+            "./Core/functions.php"
+        ]
+    }
+}

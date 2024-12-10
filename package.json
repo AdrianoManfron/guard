@@ -1,0 +1,16 @@
+{
+  "name": "guard",
+  "version": "1.0.0",
+  "description": "Desafio Prático - Gerenciador de Contatos (GUARD)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./Styles/input.css -o ./Public/Styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.12.20",
+    "tailwindcss": "^3.4.16"
+  }
+}
