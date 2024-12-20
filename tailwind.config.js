@@ -4,45 +4,52 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "grotesk": ["Schibsted Grotesk", "sans-serif"]
+        'grotesk': ['Schibsted Grotesk', 'sans-serif']
       },
       fontSize: {
-        "heading": "24px",
-        "text-large": "16px",
-        "text-medium": "14px",
-        "text-small": "12px",
-        "text-xsmall": "10px",
-        "label-medium": "14px",
-        "label-small": "12px",
+        'heading': '24px',
+        'large': '16px',
+        'medium': '14px',
+        'small': '12px',
+        'xsmall': '10px',
+        'label-medium': '14px',
+        'label-small': '12px'
       },
       lineHeight: {
-        "heading": "32px",
-        "text-large": "24px",
-        "text-medium": "22px",
-        "text-small": "20px",
-        "text-xsmall": "14px",
-        "label-medium": "22px",
-        "label-small": "20px",
+        'heading': '32px',
+        'large': '24px',
+        'medium': '22px',
+        'small': '20px',
+        'xsmall': '14px',
+        'label-medium': '22px',
+        'label-small':  '20px'
       },
       colors: {
-        "content-primary": "#FFFFFF",
-        "content-body": "#E2E2E2",
-        "content-heading": "#C6C6C6",
-        "content-muted": "#5E5E5E",
-        "content-placeholder": "#777777",
-        "content-inverse": "#111111"
+        'content-primary': '#FFFFFF',
+        'content-body': '#E2E2E2',
+        'content-heading': '#C6C6C6',
+        'content-muted': '#5E5E5E',
+        'content-placeholder': '#777777',
+        'content-inverse': '#111111',
+        'brand': '#C4F120',
+        'red': '#E61E32'
       },
       backgroundColor: {
-        "background-primary": "#111111",
-        "background-secondary": "#1B1B1B",
-        "background-tertiary": "#303030"
+        'primary': '#111111',
+        'secondary': '#1B1B1B',
+        'tertiary': '#303030',
+        'brand': '#C4F120',
+        'red': '#E61E32'
       },
       borderColor: {
-        "border-primary": "#FFFFFF"
+        'primary': '#FFFFFF'
       },
       accentColor: {
-        "accent-brand": "#C4F120",
-        "accent-red": "#E61E32"
+        'brand': '#C4F120',
+        'red': '#E61E32'
+      },
+      backgroundImage: {
+        'login-register': "url('/images/login-register.png')",
       },
       maxWidth: {
         '1192': '1192px',

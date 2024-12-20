@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" data-theme="dracula">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,21 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="../Styles/output.css" rel="stylesheet">
+    <script src="../Javascripts/app.js" defer></script>
     <title>GUARD</title>
 </head>
 
-<body>
-    <section class="mx-auto max-w-screen-lg h-screen flex flex-col space-y-6">
-        <?php require base_path('views/partials/_navbar.view.php'); ?>
-
-        <?php require base_path('views/partials/_search.view.php'); ?>
-
-        <?php require base_path('views/partials/_mensage.view.php'); ?>
-
-        <div class="flex flex-grow pb-6">
-            <?php require base_path("views/{$view}.view.php"); ?>
-        </div>
-    </section>
+<body class="font-grotesk min-h-screen bg-primary">
+    <?php require base_path("views/{$view}.view.php"); ?>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
     <title>GUARD</title>
 </head>
 
-<body>
+<body class="font-grotesk">
     <?php require "../views/{$view}.view.php"; ?>
 </body>
 
